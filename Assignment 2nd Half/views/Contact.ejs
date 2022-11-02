@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs')%>
+<body>
+    <%- include('./partials/nav.ejs')%>
+
+    <div class="ContactMe">
+            <div class="Email">
+                <h2 >Contact Me</h2>
+                <label for="Email">Your Email Address: </label>
+                <br>
+                <input type="text" id="Email", name="Email">
+                <br>
+                <label for="Paragraph"> Your Message </label>
+                <br>
+                <input type="text" id="Paragraph", name="Paragraph">
+                <button type="submit">Send </button>
+            </div>
+            <div class="Info">
+                <h2>Contact Details</h2>
+                
+                <p>Email: pierrecrafford14@gmail.com</p>
+                
+                <p>Phone Number: 0726172068</p>
+                
+            </div>
+    </div>
+
+
+    <%- include('./partials/footer.ejs')%>
+    
+</body>
+</html>

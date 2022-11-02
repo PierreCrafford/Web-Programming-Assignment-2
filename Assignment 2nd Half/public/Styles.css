@@ -1,0 +1,231 @@
+/*Pierre Crafford 578360*/
+
+/* All Pages */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+}
+
+h4{
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+body{
+    margin: 0;
+}
+
+nav > div{
+    
+    display: inline-block;
+    width: 50%;
+    font-size: large;
+    height: 60px;
+}
+
+.Logo{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    float: inline-end;
+    text-decoration: none;
+}
+
+li{
+    margin-right: 30px;
+    list-style: none;
+}
+
+img{
+    height: inherit;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer CSS */
+footer{
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(20, 20, 20);
+    margin-top: 10px;
+    position: fixed;
+}
+
+/* HomePage */
+
+/* Main Body */
+.MainBody{
+    margin: auto;
+    width: 50%;
+    height: 400px;
+    
+}
+
+.MainBody > div{
+    
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    margin-top: 25%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+
+.Profile{
+    height: 400px;
+    width: 400px;
+}
+
+.Profile > img{
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.Description{
+    width: max-content;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* About Page */
+.AboutBody{
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+    
+    margin-top: 3%;
+    margin-bottom: 110px;
+    padding: 5px;
+}
+
+.AboutBody > div{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.AboutBody > div img{
+    
+    width: 300px;
+    height: 300px;
+    margin: auto 50px;
+}
+
+.Heading{
+    
+    height: 300px;
+    width: 150px;
+    
+}
+
+.Data{
+    margin-top: 18%;
+    font-size: large;
+}
+
+br{
+    margin-top: 10px;
+    
+}
+
+table{
+    width: 400px;
+    padding: 10px;
+    margin-top: -35px;
+    text-align: left;
+}
+
+td{
+    padding: 3px ;
+}
+
+.Information{
+    font-size: 12px;
+    text-decoration: none;
+    border: none;
+}
+
+.DataAndInformation > table{
+    margin-top: 10%;
+    margin-right: 400px;
+    text-align: left;
+    width: 800px;
+}
+
+
+
+/* Contact Page */
+.ContactMe{
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    height: 400px;
+    
+    display: flex;
+    padding: 5px;
+}
+
+.ContactMe > div{
+    
+    height: inherit;
+    width: inherit;
+    text-align: left;
+    display: block;
+}
+
+input {
+    margin-bottom: 50px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: rgb(12, 12, 12)
+}
+
+input:focus{
+    outline: none;
+}
+
+.Info > p{
+    text-align: left;
+}
+
+button{
+    font-size: large;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    border: none;
+}
+
+.PDFButton{
+    background-color: inherit;
+    cursor: pointer;
+}
